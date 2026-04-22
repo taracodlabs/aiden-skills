@@ -1,32 +1,85 @@
-# Aiden Skills
+# Aiden Skills Library
 
-> Production-ready AI agent skills from the [Aiden](https://aiden.taracod.com) ecosystem. Works with Claude Code, Codex, OpenCode, Gemini CLI, and any agent that supports SKILL.md.
+Curated skill catalog for [DevOS — Aiden](https://github.com/taracodlabs/aiden),
+the local-first AI operating system.
 
-## Skills
+Each skill is a single `SKILL.md` file with YAML frontmatter
+(name, category, description, platform, version, tags).
+No runtime code here — the library is a catalog that Aiden
+can browse, install, and enable on demand.
 
-| Skill | What it does | Install |
-|-------|-------------|---------|
-| **nse-market-analysis** | NSE/BSE stock analysis with technical indicators, sector rotation, and swing trade signals | `npx skills add taracodlabs/aiden-skills --skill nse-market-analysis` |
-| **deep-research** | Multi-source research synthesis — web, PDFs, and knowledge base → structured report | `npx skills add taracodlabs/aiden-skills --skill deep-research` |
-| **morning-briefing** | Daily briefing: weather, calendar, market snapshot, trending news, pending tasks | `npx skills add taracodlabs/aiden-skills --skill morning-briefing` |
-| **competitor-analysis** | Research competitors: pricing, features, positioning, strengths/weaknesses → comparison doc | `npx skills add taracodlabs/aiden-skills --skill competitor-analysis` |
-| **content-planner** | Generate a month of content ideas with hooks, formats, and posting schedule | `npx skills add taracodlabs/aiden-skills --skill content-planner` |
-| **code-ship** | Build, test, fix errors, and deploy — full code-to-production pipeline | `npx skills add taracodlabs/aiden-skills --skill code-ship` |
-| **file-organiser** | Scan a folder, classify files by type/project/date, rename and sort into clean structure | `npx skills add taracodlabs/aiden-skills --skill file-organiser` |
-| **pdf-research** | Read multiple PDFs, extract key findings, synthesise into a structured report with citations | `npx skills add taracodlabs/aiden-skills --skill pdf-research` |
+---
 
-## Install All
+## Skills by category
 
-```bash
-npx skills add taracodlabs/aiden-skills
+| Category | Count | Skills |
+| -------- | ----- | ------ |
+| Security / OSINT | 10 | haveibeenpwned, crt-sh, urlscan, shodan, virustotal, cveapi, explainshell, censys, greynoise, ssllabs |
+| Developer | 7 | arxiv, github-auth, github-issues, github-pr-workflow, github-repo-management, claude-code, codex |
+| General | 7 | deep-research, morning-briefing, competitor-analysis, content-planner, code-ship, file-organiser, pdf-research |
+| Creative | 2 | ascii-art, gif-search |
+| Research | 2 | systematic-debugging, test-driven-development |
+| Other | 4 | excalidraw, architecture-diagram, research-paper-writing, securityheaders |
+
+**Total: 32 skills** (see [`INDEX.json`](INDEX.json) for full metadata)
+
+---
+
+## Install via Aiden
+
+From the Aiden CLI or chat:
+
+```
+/skills explore <topic>
+/skills install <skill-id>
+/skills enable <skill-id>
 ```
 
-## About
+---
 
-These skills are extracted from [Aiden — a local-first AI OS](https://aiden.taracod.com) with 31 agents, persistent memory, and computer control. Each skill works standalone with any compatible agent, but for the full experience — autonomous execution, cross-session memory, scheduled tasks, and computer control — [download Aiden free](https://aiden.taracod.com).
+## Skill frontmatter format
 
-## License
+```yaml
+---
+name: my-skill
+description: One-line description of what this skill does
+category: security | developer | research | creative | general
+platform: any | windows | linux
+version: 1.0.0
+tags: tag1, tag2, tag3
+env_required:
+  - MY_API_KEY
+---
+```
 
-MIT — use, modify, distribute freely.
+---
 
-Built by [@shivafpx](https://x.com/shivafpx) · [Taracod](https://taracod.com)
+## Contribute a skill
+
+1. Fork this repo
+2. Add `<skill-id>/SKILL.md` with valid frontmatter (see format above)
+3. Open a PR — CI validates frontmatter structure
+4. Once merged, `/skills explore` users will discover your skill
+
+Only submit skills that are:
+- **Cross-platform** (or clearly labeled `platform: windows/linux`)
+- **Self-contained** (no external state or project-specific assumptions)
+- **Generally useful** (not repo-specific or moat features)
+
+NSE trading, Windows admin, and India-specific skills are intentionally
+**not** in this library — they remain in the main
+[aiden](https://github.com/taracodlabs/aiden) repo.
+
+---
+
+## Links
+
+- **Main repo:** https://github.com/taracodlabs/aiden
+- **Releases + installers:** https://github.com/taracodlabs/aiden-releases
+- **Landing page:** https://aiden.taracod.com
+- **Discord:** https://discord.gg/gMZ3hUnQTm
+
+---
+
+Licensed MIT. Individual skills may have their own license notes
+in their `SKILL.md`. Built by [Taracod](https://taracod.com).

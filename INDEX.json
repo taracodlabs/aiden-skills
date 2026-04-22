@@ -1,0 +1,697 @@
+{
+    "library_version":  "1.0.0",
+    "generated_at":  "2026-04-23T01:50:10Z",
+    "skill_count":  32,
+    "skills":  [
+                   {
+                       "id":  "architecture-diagram",
+                       "name":  "architecture-diagram",
+                       "category":  "creative",
+                       "description":  "Generate dark-themed system architecture and component diagrams as HTML/SVG for rendering in the browser",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "architecture",
+                                    "diagram",
+                                    "svg",
+                                    "html",
+                                    "dark-theme",
+                                    "system-design",
+                                    "visualization",
+                                    "components",
+                                    "flowchart"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "architecture-diagram/SKILL.md"
+                   },
+                   {
+                       "id":  "arxiv",
+                       "name":  "arxiv",
+                       "category":  "research",
+                       "description":  "Search, fetch, and download academic papers from arXiv using the public REST API — no API key required",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "arxiv",
+                                    "research",
+                                    "papers",
+                                    "academic",
+                                    "ai",
+                                    "ml",
+                                    "science",
+                                    "pdf",
+                                    "preprint",
+                                    "citations"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "arxiv/SKILL.md"
+                   },
+                   {
+                       "id":  "ascii-art",
+                       "name":  "ascii-art",
+                       "category":  "creative",
+                       "description":  "Generate ASCII art text banners, box art, and decorative text using pyfiglet, cowsay, and boxes CLI tools",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "ascii",
+                                    "art",
+                                    "banner",
+                                    "text",
+                                    "figlet",
+                                    "cowsay",
+                                    "terminal",
+                                    "decoration",
+                                    "cli",
+                                    "creative"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "ascii-art/SKILL.md"
+                   },
+                   {
+                       "id":  "censys",
+                       "name":  "censys",
+                       "category":  "security",
+                       "description":  "Search Censys for internet-exposed hosts, certificates, and services — host lookups, queries, and certificate analysis",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "censys",
+                                    "osint",
+                                    "recon",
+                                    "ports",
+                                    "certificates",
+                                    "tls",
+                                    "asset-discovery",
+                                    "internet-scan"
+                                ],
+                       "env_required":  [
+                                            "CENSYS_API_ID",
+                                            "CENSYS_API_SECRET"
+                                        ],
+                       "path":  "censys/SKILL.md"
+                   },
+                   {
+                       "id":  "claude-code",
+                       "name":  "claude-code",
+                       "category":  "agent-bridge",
+                       "description":  "Delegate complex coding and file-editing tasks to Anthropic Claude Code CLI for deep agentic coding sessions",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "claude",
+                                    "anthropic",
+                                    "code",
+                                    "cli",
+                                    "agent-bridge",
+                                    "coding",
+                                    "delegation",
+                                    "agentic",
+                                    "pair-programming"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "claude-code/SKILL.md"
+                   },
+                   {
+                       "id":  "code-ship",
+                       "name":  "code-ship",
+                       "category":  "general",
+                       "description":  "Full code-to-production pipeline — scaffold, implement, test, fix errors, commit, and deploy. Use when the user asks to build something, ship a feature, create a project, or deploy code.",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "code-ship/SKILL.md"
+                   },
+                   {
+                       "id":  "codex",
+                       "name":  "codex",
+                       "category":  "agent-bridge",
+                       "description":  "Delegate coding tasks to OpenAI Codex CLI for automated code generation, editing, and explanation",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "openai",
+                                    "codex",
+                                    "cli",
+                                    "code-generation",
+                                    "agent-bridge",
+                                    "gpt",
+                                    "automation",
+                                    "coding",
+                                    "delegation"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "codex/SKILL.md"
+                   },
+                   {
+                       "id":  "competitor-analysis",
+                       "name":  "competitor-analysis",
+                       "category":  "general",
+                       "description":  "Research competitors systematically — pricing, features, positioning, strengths, weaknesses — and produce a structured comparison document. Use when the user asks to analyse competitors, compare products, or understand their competitive landscape.",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "competitor-analysis/SKILL.md"
+                   },
+                   {
+                       "id":  "content-planner",
+                       "name":  "content-planner",
+                       "category":  "general",
+                       "description":  "Generate a content calendar with post ideas, hooks, formats, and scheduling for social media, newsletters, or blogs. Use when the user asks to plan content, create a content calendar, or generate post ideas.",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "content-planner/SKILL.md"
+                   },
+                   {
+                       "id":  "crt-sh",
+                       "name":  "crt.sh",
+                       "category":  "security",
+                       "description":  "Search certificate transparency logs to enumerate subdomains and TLS certificates for any domain — no API key required",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "osint",
+                                    "certificates",
+                                    "subdomains",
+                                    "tls",
+                                    "ssl",
+                                    "ct-logs",
+                                    "recon",
+                                    "crt.sh"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "crt-sh/SKILL.md"
+                   },
+                   {
+                       "id":  "cveapi",
+                       "name":  "cveapi",
+                       "category":  "security",
+                       "description":  "Look up CVE vulnerability details by ID via MITRE CVE API with NVD fallback — severity, CVSS score, affected products, and references",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "cve",
+                                    "vulnerability",
+                                    "nvd",
+                                    "mitre",
+                                    "cvss",
+                                    "patch",
+                                    "incident-response",
+                                    "compliance"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "cveapi/SKILL.md"
+                   },
+                   {
+                       "id":  "deep-research",
+                       "name":  "deep-research",
+                       "category":  "general",
+                       "description":  "Multi-source research synthesis that searches the web, reads documents, and produces structured reports with citations. Use when the user asks to research a topic, compare options, investigate something in depth, or produce a report.",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "deep-research/SKILL.md"
+                   },
+                   {
+                       "id":  "excalidraw",
+                       "name":  "excalidraw",
+                       "category":  "productivity",
+                       "description":  "Create hand-drawn style diagrams and sketches in Excalidraw JSON format for architecture, flowcharts, and system design",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "excalidraw",
+                                    "diagram",
+                                    "architecture",
+                                    "flowchart",
+                                    "sketch",
+                                    "visualization",
+                                    "json",
+                                    "drawing",
+                                    "design"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "excalidraw/SKILL.md"
+                   },
+                   {
+                       "id":  "explainshell",
+                       "name":  "explainshell",
+                       "category":  "developer",
+                       "description":  "Break down shell commands and one-liners into plain-English explanations — powered by explainshell.com",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "shell",
+                                    "bash",
+                                    "linux",
+                                    "commands",
+                                    "explainer",
+                                    "learning",
+                                    "devops",
+                                    "documentation",
+                                    "scripting"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "explainshell/SKILL.md"
+                   },
+                   {
+                       "id":  "file-organiser",
+                       "name":  "file-organiser",
+                       "category":  "general",
+                       "description":  "Scan a folder, classify files by type, project, or date, rename generically-named files based on content, and sort into a clean folder structure. Use when the user asks to organise files, clean up a folder, or sort their downloads.",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "file-organiser/SKILL.md"
+                   },
+                   {
+                       "id":  "gif-search",
+                       "name":  "gif-search",
+                       "category":  "media",
+                       "description":  "Search and fetch GIFs from Tenor using the public API with curl or PowerShell — requires a free Tenor API key",
+                       "platform":  "any",
+                       "version":  "1.0.1",
+                       "tags":  [
+                                    "gif",
+                                    "tenor",
+                                    "giphy",
+                                    "search",
+                                    "media",
+                                    "animation",
+                                    "image",
+                                    "reaction",
+                                    "fun"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "gif-search/SKILL.md"
+                   },
+                   {
+                       "id":  "github-auth",
+                       "name":  "github-auth",
+                       "category":  "developer",
+                       "description":  "Set up GitHub authentication via gh CLI, SSH keys, and HTTPS personal access tokens",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "github",
+                                    "auth",
+                                    "ssh",
+                                    "pat",
+                                    "token",
+                                    "credentials",
+                                    "gh-cli",
+                                    "authentication",
+                                    "git",
+                                    "https"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "github-auth/SKILL.md"
+                   },
+                   {
+                       "id":  "github-issues",
+                       "name":  "github-issues",
+                       "category":  "developer",
+                       "description":  "Create, list, view, and manage GitHub issues using the gh CLI",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "github",
+                                    "issues",
+                                    "bug-tracker",
+                                    "gh-cli",
+                                    "labels",
+                                    "milestones",
+                                    "comments",
+                                    "triage",
+                                    "project-management"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "github-issues/SKILL.md"
+                   },
+                   {
+                       "id":  "github-pr-workflow",
+                       "name":  "github-pr-workflow",
+                       "category":  "developer",
+                       "description":  "Full pull request lifecycle — create, review, merge, and manage PRs using the gh CLI",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "github",
+                                    "pull-request",
+                                    "pr",
+                                    "review",
+                                    "merge",
+                                    "gh-cli",
+                                    "code-review",
+                                    "workflow",
+                                    "branch",
+                                    "diff"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "github-pr-workflow/SKILL.md"
+                   },
+                   {
+                       "id":  "github-repo-management",
+                       "name":  "github-repo-management",
+                       "category":  "developer",
+                       "description":  "Create, clone, fork, archive, and manage GitHub repositories using gh CLI and git",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "github",
+                                    "repository",
+                                    "repo",
+                                    "clone",
+                                    "fork",
+                                    "branch",
+                                    "gh-cli",
+                                    "git",
+                                    "remote",
+                                    "management"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "github-repo-management/SKILL.md"
+                   },
+                   {
+                       "id":  "greynoise",
+                       "name":  "greynoise",
+                       "category":  "security",
+                       "description":  "Classify IP addresses as internet scanners (benign/malicious) or targeted attackers — filters noise from security alerts",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "greynoise",
+                                    "scanner",
+                                    "threat-intel",
+                                    "ip",
+                                    "osint",
+                                    "soc",
+                                    "incident-response",
+                                    "noise-filtering"
+                                ],
+                       "env_required":  [
+                                            "GREYNOISE_API_KEY"
+                                        ],
+                       "path":  "greynoise/SKILL.md"
+                   },
+                   {
+                       "id":  "haveibeenpwned",
+                       "name":  "haveibeenpwned",
+                       "category":  "security",
+                       "description":  "Check if an email address or username appears in known data breaches using the Have I Been Pwned v3 API",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "breach",
+                                    "pwned",
+                                    "email",
+                                    "password",
+                                    "leak",
+                                    "osint",
+                                    "hibp"
+                                ],
+                       "env_required":  [
+                                            "HIBP_API_KEY"
+                                        ],
+                       "path":  "haveibeenpwned/SKILL.md"
+                   },
+                   {
+                       "id":  "morning-briefing",
+                       "name":  "morning-briefing",
+                       "category":  "general",
+                       "description":  "Generate a personalised daily briefing covering weather, market snapshot, trending news, pending tasks, and calendar — delivered as a concise summary. Use when the user asks for a briefing, daily summary, or morning update.",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "morning-briefing/SKILL.md"
+                   },
+                   {
+                       "id":  "pdf-research",
+                       "name":  "pdf-research",
+                       "category":  "general",
+                       "description":  "Read multiple PDF documents, extract key findings, and synthesise into a structured report with citations. Use when the user uploads PDFs and asks to analyse, summarise, compare, or extract information from them.",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "pdf-research/SKILL.md"
+                   },
+                   {
+                       "id":  "research-paper-writing",
+                       "name":  "research-paper-writing",
+                       "category":  "research",
+                       "description":  "Structured pipeline for writing ML and AI research papers — from literature review to LaTeX submission",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "research",
+                                    "paper",
+                                    "writing",
+                                    "latex",
+                                    "ml",
+                                    "ai",
+                                    "academic",
+                                    "arxiv",
+                                    "publication",
+                                    "citation"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "research-paper-writing/SKILL.md"
+                   },
+                   {
+                       "id":  "securityheaders",
+                       "name":  "securityheaders",
+                       "category":  "security",
+                       "description":  "Audit HTTP security headers for any URL and receive a grade (A+ to F) with specific recommendations for missing headers",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "http",
+                                    "headers",
+                                    "csp",
+                                    "hsts",
+                                    "xframe",
+                                    "audit",
+                                    "web",
+                                    "hardening",
+                                    "compliance"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "securityheaders/SKILL.md"
+                   },
+                   {
+                       "id":  "shodan",
+                       "name":  "shodan",
+                       "category":  "security",
+                       "description":  "Search Shodan for internet-connected devices, open ports, and services — host lookups and database queries",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "shodan",
+                                    "osint",
+                                    "recon",
+                                    "ports",
+                                    "services",
+                                    "iot",
+                                    "asset-discovery",
+                                    "cve",
+                                    "infosec"
+                                ],
+                       "env_required":  [
+                                            "SHODAN_API_KEY"
+                                        ],
+                       "path":  "shodan/SKILL.md"
+                   },
+                   {
+                       "id":  "ssllabs",
+                       "name":  "ssllabs",
+                       "category":  "security",
+                       "description":  "Comprehensive TLS/SSL analysis via Qualys SSL Labs — grades cipher suites, certificate chains, protocol versions, and known vulnerabilities",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "ssl",
+                                    "tls",
+                                    "certificates",
+                                    "ssllabs",
+                                    "qualys",
+                                    "https",
+                                    "ciphers",
+                                    "heartbleed",
+                                    "poodle",
+                                    "compliance"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "ssllabs/SKILL.md"
+                   },
+                   {
+                       "id":  "systematic-debugging",
+                       "name":  "systematic-debugging",
+                       "category":  "developer",
+                       "description":  "Four-phase root cause investigation process for diagnosing bugs, errors, and unexpected behavior",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "debugging",
+                                    "root-cause",
+                                    "investigation",
+                                    "bug",
+                                    "error",
+                                    "diagnosis",
+                                    "troubleshooting",
+                                    "logs",
+                                    "testing"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "systematic-debugging/SKILL.md"
+                   },
+                   {
+                       "id":  "test-driven-development",
+                       "name":  "test-driven-development",
+                       "category":  "developer",
+                       "description":  "Write software using the RED-GREEN-REFACTOR cycle for reliable, well-tested code",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "tdd",
+                                    "testing",
+                                    "red-green-refactor",
+                                    "unit-tests",
+                                    "pytest",
+                                    "jest",
+                                    "vitest",
+                                    "quality",
+                                    "development"
+                                ],
+                       "env_required":  [
+
+                                        ],
+                       "path":  "test-driven-development/SKILL.md"
+                   },
+                   {
+                       "id":  "urlscan",
+                       "name":  "urlscan",
+                       "category":  "security",
+                       "description":  "Submit URLs for automated malware and phishing analysis, then retrieve safety verdicts and screenshots via urlscan.io",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "malware",
+                                    "phishing",
+                                    "url",
+                                    "scan",
+                                    "osint",
+                                    "urlscan",
+                                    "threat-intel"
+                                ],
+                       "env_required":  [
+                                            "URLSCAN_API_KEY"
+                                        ],
+                       "path":  "urlscan/SKILL.md"
+                   },
+                   {
+                       "id":  "virustotal",
+                       "name":  "virustotal",
+                       "category":  "security",
+                       "description":  "Check file hashes, URLs, domains, and IP addresses against 70+ antivirus engines and threat intelligence feeds via VirusTotal",
+                       "platform":  "any",
+                       "version":  "1.0.0",
+                       "tags":  [
+                                    "security",
+                                    "virustotal",
+                                    "malware",
+                                    "antivirus",
+                                    "threat-intel",
+                                    "hash",
+                                    "url",
+                                    "domain",
+                                    "ip",
+                                    "incident-response"
+                                ],
+                       "env_required":  [
+                                            "VIRUSTOTAL_API_KEY"
+                                        ],
+                       "path":  "virustotal/SKILL.md"
+                   }
+               ]
+}
